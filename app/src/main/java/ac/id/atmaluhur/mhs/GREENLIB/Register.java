@@ -17,7 +17,7 @@ public class Register extends AppCompatActivity {
         setContentView(R.layout.register);
 
         list_jk = findViewById(R.id.opsi);
-        Button btn_daftar = findViewById(R.id.button8);
+        Button btn_daftar = findViewById(R.id.btn_daftar);
         btn_daftar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

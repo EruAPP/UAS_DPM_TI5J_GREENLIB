@@ -161,18 +161,22 @@
             android:background="@drawable/ktkpthbsr"
             android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/editTextTextPersonName3"
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="31dp"
-                android:layout_marginTop="5dp"
-                android:background="@color/white"
-                android:ems="10"
-                android:hint="Ketik saran anda"
-                android:inputType="textPersonName"
-                android:paddingLeft="10dp"
-                android:textColor="#000000"
-                android:textSize="12sp" />
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                app:boxBackgroundColor="#00FFFFFF"
+                app:boxStrokeColor="#00FFFFFF"
+                app:hintTextColor="#00FFFFFF"
+                app:prefixTextColor="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:hint="Masukkan Saran Anda"
+                    android:textColorHint="@color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
     </ScrollView>
 
