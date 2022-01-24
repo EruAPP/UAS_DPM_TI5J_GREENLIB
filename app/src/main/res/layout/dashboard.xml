@@ -115,7 +115,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:onClick="akun">
 
                     <View
                         android:layout_width="100dp"
@@ -138,7 +139,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:onClick="daftar_buku">
 
                     <View
                         android:layout_width="100dp"
@@ -169,7 +171,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:onClick="kotak_saran">
 
                     <View
                         android:layout_width="100dp"
@@ -192,7 +195,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:onClick="riwayat_peminjaman">
 
                     <View
                         android:layout_width="100dp"
@@ -222,21 +226,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:onClick="riwayat_kunjungan">
 
                     <View
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_weight="1"
-                        android:background="@drawable/riwayat_peminjaman" />
+                        android:background="@drawable/riwayat_kunjungan" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Akun\n"
+                        android:text="Riwayat\nKunjungan"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
                 </LinearLayout>

@@ -4,6 +4,347 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingTop="5dp"
+    android:paddingRight="30dp"
+    android:paddingBottom="5dp"
     tools:context=".RiwayatKunjunganPerpustakaan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="87dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:background="@drawable/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/judulRk"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/hamim" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="25dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/namaAkun"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/status"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="465dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/isi_riwayat_kunjungan"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/kotak_kotak"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="09\n10"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="0"
+                        android:background="@color/main" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Selasa\n18 Januari 2022"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="0"
+                        android:background="@color/main" />
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="14\n42"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/kotak_kotak"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="10\n42"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="0"
+                        android:background="@color/main" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Selasa\n11 Januari 2022"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="0"
+                        android:background="@color/main" />
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="11\n54"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/kotak_kotak"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="09\n34"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="0"
+                        android:background="@color/main" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Selasa\n17 Agustus 2021"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="0"
+                        android:background="@color/main" />
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="12\n01"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/kotak_kotak"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="11\n22"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="0"
+                        android:background="@color/main" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Selasa\n01 Juni 2021"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="0"
+                        android:background="@color/main" />
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="13\n14"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/kotak_kotak"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="09\n10"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="0"
+                        android:background="@color/main" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Selasa\n14 Mei 2021"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="0"
+                        android:background="@color/main" />
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="21\n10"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info2"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
