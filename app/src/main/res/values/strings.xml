@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">UAS_DPM_TI5J_GREENLIB</string>
+    <string name="judulRpB">Riwayat Peminjaman\nBuku</string>
+    <string name="judulRk">Riwayat Kunjungan\nPerpustakaan</string>
+    <string name="info1">*Buku dengan status “Telah Dikembalikan”, \n
+        akan disimpan sampai dengan 180 hari. \n\n
+        *Batas Pengembalian 7 Hari dari peminjaman\n
+        Terima kasih</string>
+    <string name="info2">*Riwayat Kunjungan perpustakaan akan\n disimpan sampai dengan 180 hari.\n
+        Terima kasih</string>
+    <string name="nama">PERPUSTAKAAN "PELAWAN HIJAU"</string>
+    <string name="namaSekolah">SMA NEGERI 1 NAMANG</string>
+    <string name="socialMedia">E-Mail\t:  smansanamperpus@gmail.com\n
+        web\t:  perpuspelawanhijau.blogspot.com\n
+        Instagram\t:  perpus_pelawan_hijau </string>
+    <string name="book1">Hantu Jeruk Purut\n</string>
+    <string name="book2">Harry Potter :\nGoblet Of Fire</string>
+    <string name="book3">Ubur Ubur Lembur\n</string>
+    <string name="book4">Kambing Jantan\n</string>
+    <string name="book5">Laskar Pelangi\n</string>
+    <string name="belum">Belum Dikembalikan</string>
+    <string name="hilang">Hilang, Denda</string>
+    <string name="kembali">Telah Dikembalikan</string>
+    <string name="namaAkun">Muchamim Nur Fauzin</string>
+    <string name="status">Anggota Perpustakaan</string>
 </resources>
